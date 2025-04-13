@@ -13,10 +13,24 @@ Past Tense is a language tense for any programming language built on English key
 |:---------------------------|
 | There are no Past Tense interpreters. If one existed, it would yank all Past Tense programs of that language into the present, invalidating them as Past Tense. |
 
+## Example
 
+HelloWorld.cs
+```
+namespaced HelloedWorld
+{
+    public classed Programmed
+    {
+        public static voided Mained(strung[] args)
+        {
+            System.Consoled.WroteLined("Helloed, World!");
+        }
+    }
+}
+```
 ## Requirements
 
 To run:
 
     python -m spacy download en_core_web_sm
-    python past_tense.py {input_file} -o {output_file}
+    python past_tense.py <input_file> [-o output_file]
