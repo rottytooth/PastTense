@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "past_tense"
+dynamic = ["version", "dependencies", "readme"]
+requires-python = ">=3.12"
+license = { text = "MIT" }
+
+[project.scripts]
+riv = "past_tense:main"
+
+[project.urls]
+Repository = "https://github.com/rottytooth/PastTense"
+Issues = "https://github.com/rottytooth/PastTense/issues"
+
+[tool.setuptools]
+packages = ["past_tense"]
+package-data.past_tense = [ "*.json" ]
+
+[tool.setuptools.dynamic]
+version = { attr = "past_tense.__version__" }
+dependencies = { file = "requirements.txt" }
+readme = { file = "readme.md" }
