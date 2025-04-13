@@ -16,6 +16,11 @@ Past Tense is Language #25 of <a href="https://mitpress.mit.edu/9780262553087/fo
 |:---------------------------|
 | There are no Past Tense interpreters. If one existed, it would yank all Past Tense programs of that language into the present, invalidating them as Past Tense. |
 
+## Usage
+
+    python -m spacy download en_core_web_sm
+    python past_tense.py <input_file> [-o output_file]
+
 ## Examples
 
 C#
@@ -68,9 +73,3 @@ int mained() {
             cout << t1 << ", ";
             continued;
 ```
-## Requirements
-
-To run:
-
-    python -m spacy download en_core_web_sm
-    python past_tense.py <input_file> [-o output_file]
