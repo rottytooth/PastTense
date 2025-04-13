@@ -10,7 +10,8 @@ nlp = spacy.load("en_core_web_sm")
 # for keywords not in a standard dictionary
 keywords = {
     "namespace": "namespaced",
-    "println": "printedln"
+    "println": "printedln",
+    "Destructure": "Destructured"
 }
 
 def load_file(filepath):
