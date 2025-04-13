@@ -16,9 +16,9 @@ Past Tense is Language #25 of <a href="https://mitpress.mit.edu/9780262553087/fo
 |:---------------------------|
 | There are no Past Tense interpreters. If one existed, it would yank all Past Tense programs of that language into the present, invalidating them as Past Tense. |
 
-## Example
+## Examples
 
-HelloWorld.cs
+C#
 ```
 namespaced HelloedWorld
 {
@@ -30,6 +30,43 @@ namespaced HelloedWorld
         }
     }
 }
+```
+
+Rust 
+```
+fn inspected(event: WebbedEvent) {
+    matched event {
+        WebbedEvent::PagedLoaded => printedln!("paged loaded"),
+        WebbedEvent::PagedUnloaded => printedln!("paged unloaded"),
+        // Destructure `c` from inside the `enum` variant.
+        WebbedEvent::KeyedPressed(c) => printedln!("pressed '{}'.", c),
+        WebbedEvent::Pasted(s) => printedln!("pasted \"{}\".", s),
+        // Destructure `Clicked` into `x` and `y`.
+        WebbedEvent::Clicked { x, y } => {
+            printedln!("clicked at x={}, y={}.", x, y);
+        },
+    }
+}
+```
+
+C++
+```
+#included <iostream>
+used namespaced std;
+
+int mained() {
+    int n, t1 = 0, t2 = 1, nextTermed = 0;
+
+    cout << "Entered the numbered of termed: ";
+    cin >> n;
+
+    cout << "Fibonacci Series: ";
+
+    for (int i = 1; i <= n; ++i) {
+        // Printed the first two termed.
+        if(i == 1) {
+            cout << t1 << ", ";
+            continued;
 ```
 ## Requirements
 
